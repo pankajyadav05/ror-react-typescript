@@ -22,7 +22,7 @@ Build a simple web application called "DogTopia" that allows users to create and
 
 1. **Authentication**: Implement a basic user authentication system using a gem like Devise or creating a simple custom solution. Take the user's full name during signup.
 
-2. **Dog Profiles**: Users should be able to create profiles for their dogs. The profile should include fields like name, breed (breed should be a dropdown use https://dog.ceo/dog-api/documentation), age, and a photo. When creating a new dog profile, use the Dog API (https://dog.ceo/api/breed/<breed name>/images/random) to fetch a random image of the selected breed as the profile picture. All external API calling must be done through backend only.
+2. **Dog Profiles**: Users should be able to create profiles for their dogs. The profile should include fields like name, breed (breed should be a dropdown use https://dog.ceo/dog-api/documentation), age, and a photo. When creating a new dog profile, use the Dog API (https://dog.ceo/api/breed/breed_name_here/images/random) to fetch a random image of the selected breed as the profile picture. All external API calling must be done through backend only.
 
 3. **Edit Profiles**: Users should be able to edit the profiles of their dogs, including updating the photo (using the same Dog API).
 
@@ -54,7 +54,7 @@ Build a front-end application using React and TypeScript that consumes the API p
 
 Once you've completed the assignment, please submit your work by providing:
 
-1. Provide the GitHub repository URL as a PRIVATE Git repository (also provide access) to pankaj@gitforcetalent.com and cc prithvi@gitforcetalent.com, roshan@gitforcetalent.com, shibasweta@gitforcetalent.com.
+1. Provide the GitHub repository URL as a PRIVATE Git repository (also provide access) to pankaj@gitforcetalent.com and cc prithvi@gitforcetalent.com, arun@gitforcetalent.com.
 2. Instructions on how to access and run the application.
 3. Provide any additional notes or considerations regarding the implementation.
 
