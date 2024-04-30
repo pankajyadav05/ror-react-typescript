@@ -22,7 +22,7 @@ Build a simple web application called "DogTopia" that allows users to create and
 
 1. **Authentication**: Implement a basic user authentication system using a gem like Devise or creating a simple custom solution. Take the user's full name during signup.
 
-2. **Dog Profiles**: Users should be able to create profiles for their dogs. The profile should include fields like name, breed (breed should be a dropdown use https://dog.ceo/dog-api/documentation), age, and a photo. When creating a new dog profile, use the Dog API (https://dog.ceo/api/breed/breed_name_here/images/random) to fetch a random image of the selected breed as the profile picture. All external API calling must be done through backend only.
+2. **Dog Profiles**: Users should be able to create profiles for their dogs. The profile should include fields like name, breed (breed should be a dropdown use https://dog.ceo/dog-api/documentation), age, and a photo. When creating a new dog profile, use the Dog API (https://dog.ceo/dog-api/breeds-list) to fetch a random image of the selected breed as the profile picture. All external API calling must be done through backend only.
 
 3. **Edit Profiles**: Users should be able to edit the profiles of their dogs, including updating the photo (using the same Dog API).
 
