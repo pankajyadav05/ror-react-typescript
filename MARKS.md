@@ -10,7 +10,7 @@
 
    - Users should be able to create profiles for their dogs.
    - The profile should include fields like name, breed, age, and a photo.
-   - Use the Dog API (https://dog.ceo/api/breed/<breed name>/images/random) to fetch a random image of the selected breed as the profile picture.
+   - Use the Dog API to fetch a random image of the selected breed as the profile picture.
 
 3. **Edit Profiles** (10 marks)
 
