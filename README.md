@@ -40,10 +40,6 @@ Build a front-end application using React and TypeScript that consumes the API p
 
 4. **Documentation**: Provide a README file explaining how to set up and run the front-end application.
 
-## Bonus Points
-
-- Implement a basic search functionality that allows users to search for dogs by breed or name.
-
 ## Submission:
 
 Once you've completed the assignment, please submit your work by providing:
