@@ -16,9 +16,9 @@
 
 # Assignment: DogTopia using Ruby on Rails and React
 
-## Part 1: Ruby on Rails (API's)
-
 Build a simple web application called "DogTopia" that allows users to create and manage profiles for their dogs. The application should have the following features:
+
+## Part 1: Ruby on Rails (API's)
 
 1. **Authentication**: Implement a basic user authentication system using a gem like Devise or creating a simple custom solution. Take the user's full name during signup.
 
