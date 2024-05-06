@@ -16,7 +16,7 @@
 
 # Assignment: DogTopia using Ruby on Rails and React
 
-## Part 1: Ruby on Rails
+## Part 1: Ruby on Rails (API's)
 
 Build a simple web application called "DogTopia" that allows users to create and manage profiles for their dogs. The application should have the following features:
 
@@ -24,13 +24,9 @@ Build a simple web application called "DogTopia" that allows users to create and
 
 2. **Dog Profiles**: Users should be able to create profiles for their dogs. The profile should include fields like name, breed (breed should be a dropdown use https://dog.ceo/dog-api/documentation), age, and a photo. When creating a new dog profile, use the Dog API (https://dog.ceo/dog-api/breeds-list) to fetch a random image of the selected breed as the profile picture. All external API calling must be done through backend only.
 
-3. **Edit Profiles**: Users should be able to edit the profiles of their dogs, including updating the photo (using the same Dog API).
+3. **Database**: Store the user and dog profile data in a PostgreSQL or MySQL database (remote only). You can use a free online database service like NEON (https://neon.tech/) or RAILWAY (https://railway.app/).
 
-4. **View Profiles**: Users should be able to view the profiles of other dogs added by other users on the platform.
-
-5. **Database**: Store the user and dog profile data in a PostgreSQL or MySQL database (remote only). You can use a free online database service like NEON (https://neon.tech/) or RAILWAY (https://railway.app/).
-
-6. **Documentation**: Provide a README file explaining how to set up and run the application, including instructions for configuring the database connection.
+4. **Documentation**: Provide a README file explaining how to set up and run the application, including instructions for configuring the database connection.
 
 ## Part 2: React TypeScript
 
@@ -40,11 +36,9 @@ Build a front-end application using React and TypeScript that consumes the API p
 
 2. **Authentication**: Implement a basic user authentication flow using JSON Web Tokens (JWT) or a similar method.
 
-3. **Dog Profiles**: Provide a user-friendly interface for users to create and edit their dogs' profiles, including selecting the breed and displaying a random image (should be provided by RoR app).
+3. **Dog Profiles**: Provide a user-friendly interface for users to create dogs' profiles, including selecting the breed and displaying a random image (should be provided by RoR app).
 
-4. **View Profiles**: Display all the dog profiles created by users on the platform on homepage.
-
-5. **Documentation**: Provide a README file explaining how to set up and run the front-end application.
+4. **Documentation**: Provide a README file explaining how to set up and run the front-end application.
 
 ## Bonus Points
 
