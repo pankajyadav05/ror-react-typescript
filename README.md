@@ -14,7 +14,7 @@
 
 ---
 
-# Assignment: DogTopia using Ruby and React
+# Live Coding: DogTopia using Ruby and React
 
 Build a simple web application called "DogTopia" that allows users to create profiles for their dogs. The application should have the following features:
 
