@@ -16,38 +16,18 @@
 
 # Assignment: DogTopia using Ruby on Rails and React
 
-Build a simple web application called "DogTopia" that allows users to create and manage profiles for their dogs. The application should have the following features:
+Build a simple web application called "DogTopia" that allows users to create profiles for their dogs. The application should have the following features:
 
 ## Part 1: Ruby on Rails (API's)
 
-1. **Authentication**: Implement a basic user authentication system using a gem like Devise or creating a simple custom solution. Take the user's full name during signup.
+1. **Dog Profiles**: Users should be able to create profiles for their dogs. The profile should include fields name, breed (breed should be a dropdown use https://dog.ceo/dog-api/documentation), age, and a photo. When creating a new dog profile, use the Dog API (https://dog.ceo/dog-api/breeds-list) to fetch a random image of the selected breed as the profile picture. All external API calling must be done through backend only.
 
-2. **Dog Profiles**: Users should be able to create profiles for their dogs. The profile should include fields like name, breed (breed should be a dropdown use https://dog.ceo/dog-api/documentation), age, and a photo. When creating a new dog profile, use the Dog API (https://dog.ceo/dog-api/breeds-list) to fetch a random image of the selected breed as the profile picture. All external API calling must be done through backend only.
-
-3. **Database**: Store the user and dog profile data in a PostgreSQL or MySQL database (remote only). You can use a free online database service like NEON (https://neon.tech/) or RAILWAY (https://railway.app/).
-
-4. **Documentation**: Provide a README file explaining how to set up and run the application, including instructions for configuring the database connection.
+2. **Database**: Store the user and dog profile data in a PostgreSQL / MySQL / MongoDB database. You can use a free online database service like NEON (https://neon.tech/) or RAILWAY (https://railway.app/).
 
 ## Part 2: React TypeScript
 
 Build a front-end application using React and TypeScript that consumes the API provided by the Ruby on Rails application you built in Part 1. The front-end application should have the following features:
 
-1. **User Interface**: Create a simple and responsive user interface that allows users to interact with the "DogTopia" application.
+1. **User Interface**: Create a simple user interface that allows users to interact with the "DogTopia" application.
 
-2. **Authentication**: Implement a basic user authentication flow using JSON Web Tokens (JWT) or a similar method.
-
-3. **Dog Profiles**: Provide a user-friendly interface for users to create dogs' profiles, including selecting the breed and displaying a random image (should be provided by RoR app).
-
-4. **Documentation**: Provide a README file explaining how to set up and run the front-end application.
-
-## Submission:
-
-Once you've completed the assignment, please submit your work by providing:
-
-1. Provide the GitHub repository URL as a PRIVATE Git repository (also provide access) to pankaj@gitforcetalent.com and cc prithvi@gitforcetalent.com, arun@gitforcetalent.com.
-2. Instructions on how to access and run the application.
-3. Provide any additional notes or considerations regarding the implementation.
-
-## Evaluation Criteria:
-
-Check full details about Evaluation criteria here [marks.md](MARKS.md)
+2. **Dog Profiles**: Provide a user-friendly interface for users to create dogs' profiles, including selecting the breed and displaying a random image (should be provided by RoR app).
