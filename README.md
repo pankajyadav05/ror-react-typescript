@@ -26,7 +26,7 @@ Build a simple web application called "DogTopia" that allows users to create pro
 
 ## Part 2: React TypeScript
 
-Build a front-end application using React and TypeScript that consumes the API provided by the Ruby on Rails application you built in Part 1. The front-end application should have the following features:
+Build a front-end application using React and TypeScript that consumes the API provided by the Ruby application you built in Part 1. The front-end application should have the following features:
 
 1. **User Interface**: Create a simple user interface that allows users to interact with the "DogTopia" application.
 
